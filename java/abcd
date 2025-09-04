@@ -1,0 +1,13 @@
+1. Run in Project Terminal: allure generate target/allure-results --clean -o target/allure-report
+2. Run in Project Terminal : allure serve target/allure-results
+
+Start appium server
+appium --base-path /wd/hub
+appium --base-path /wd/hub --use-plugins=images (start with plugin )
+
+
+
+appium testing using wieless debugging
+adb tcpip 5555
+adb connect 192.168.0.102:5555
+adb devices
